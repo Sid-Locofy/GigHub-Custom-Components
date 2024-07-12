@@ -1,0 +1,13 @@
+{
+  "components": [
+    "./src/components/DesignerCard.tsx",
+    "./src/components/FileUpload.tsx",
+    "./src/components/FilterType.tsx",
+    "./src/components/Footer.tsx",
+    "./src/components/GigCard.tsx",
+    "./src/components/Header.tsx",
+    "./src/components/ReviewCard.tsx"
+  ],
+  "projectId": "66911fd8d971c37440922824",
+  "projectName": "GigHub"
+}

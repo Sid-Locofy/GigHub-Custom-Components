@@ -1,0 +1,72 @@
+.imageIcon {
+  width: 42px;
+  position: relative;
+  height: 42px;
+  object-fit: cover;
+}
+.description,
+.title {
+  align-self: stretch;
+  position: relative;
+  line-height: 100%;
+}
+.title {
+  font-weight: 600;
+}
+.description {
+  font-size: 14px;
+  color: #c5b7cc;
+}
+.container,
+.content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 8px;
+}
+.container {
+  flex-direction: row;
+  gap: 16px;
+  min-width: 280px;
+}
+.text {
+  position: relative;
+  font-size: 14px;
+  line-height: 100%;
+  font-family: Roboto;
+  color: #fff;
+  text-align: left;
+}
+.cardwithcta,
+.outlinedbutton {
+  border-radius: 8px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.outlinedbutton {
+  cursor: pointer;
+  border: 1px solid #a41cf7;
+  padding: 14px 28px;
+  background-color: transparent;
+  justify-content: center;
+}
+.outlinedbutton:hover {
+  background-color: #a41cf7;
+}
+.cardwithcta {
+  flex: 1;
+  background-color: rgba(57, 36, 71, 0.69);
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  padding: 24px;
+  box-sizing: border-box;
+  gap: 20px;
+  min-width: 328px;
+  text-align: left;
+  font-size: 20px;
+  color: #fff;
+  font-family: Roboto;
+}
